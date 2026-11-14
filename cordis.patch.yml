@@ -1,0 +1,5 @@
+# dsh.bundle patch for dsh-history-autoload: inserts its plugin row into the profile roster.
+# Applied as a profile bundle layer via package.json dsh.bundle.patch.
+- insert:
+    - id: history-autoload
+      name: 'dsh-history-autoload'
